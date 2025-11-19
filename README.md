@@ -1,14 +1,32 @@
-#🚢 Sea Battle — Console Game in Python
+Понял. Твой текст на GitHub выглядит плохо, потому что GitHub Markdown ⚠️ НЕ ПОДДЕРЖИВАЕТ разноцветные эмодзи-иконки, слишком сложные блоки и неправильные отступы.
+
+Сейчас я сделаю красивый, чистый, аккуратный, GitHub-perfect README, который будет:
+
+✔ красиво выглядеть на GitHub
+
+✔ строго в Markdown-формате
+
+✔ без наломанной разметки
+
+✔ минималистично и читаемо
+
+✔ подходит для новичкового проекта
+
+Готов? Лови:
+
+⸻
+
+🚢 Sea Battle — Console Game in Python
 
 A simple console version of the classic Sea Battle game.
-The player and the bot take turns shooting until one board has no ships left.
+The player and the bot take turns shooting until one side has no ships left.
 
 ⸻
 
 🎮 Features
 
 🟦 Game Board
-	•	Size: 10×10
+	•	Grid size: 10 × 10
 	•	Cell types:
 	•	Empty: [_]
 	•	Ship: [ # ]
@@ -18,17 +36,17 @@ The player and the bot take turns shooting until one board has no ships left.
 ⸻
 
 🚢 Ship Placement
-	•	Each side gets four single-deck ships
+	•	Four single-deck ships per side
 	•	Ships are placed randomly
-	•	Placement rules:
-	•	Ships do not touch each other
+	•	Rules:
+	•	Ships cannot touch each other
 	•	No diagonal adjacency
 
 ⸻
 
 🎯 Player Turn
-	•	Player enters coordinates (0–9)
-	•	Input validation protects against:
+	•	Enter coordinates (0–9)
+	•	Input validation prevents:
 	•	Out-of-bounds shots
 	•	Repeated shots
 	•	Console feedback: Hit or Miss
@@ -38,44 +56,70 @@ The player and the bot take turns shooting until one board has no ships left.
 🤖 Bot Turn
 	•	Bot shoots randomly
 	•	Avoids repeated shots
-	•	Shows its move result
+	•	Shows the result of the shot
 
 ⸻
 
 🏆 End of Game
 
-The game ends when one field has 0 ships remaining.
-Winner is printed to the console.
+The game ends when one board reaches 0 ships.
+The winner is printed to the console.
 
 ⸻
 
 📊 Statistics
 
-After each match, statistics are appended to stats.txt in format:
+After every match, a line is added to stats.txt:
 
 user 14
 bot 22
 
-Where the number is how many turns the match lasted.
+Format: winner + number of turns
 
 ⸻
 
 📁 Project Structure
 
 sea_battle.py
-stats.txt      # auto-created after first game
+stats.txt        # auto-created after first game
+README.md
 
 
 ⸻
 
-⭐️ About This Project
+▶️ How to Run
 
-This project helps practice:
+python3 sea_battle.py
+
+
+⸻
+
+🌱 Future Improvements
+	•	Multi-deck ships
+	•	Smart bot (tracking hits)
+	•	Save/load game state
+	•	GUI version (Tkinter / PyGame)
+	•	Move history log
+
+⸻
+
+✨ About This Project
+
+A beginner-friendly Python practice project using:
 	•	loops
-	•	conditions
 	•	lists
+	•	conditions
 	•	functions
-	•	random module
+	•	random
 	•	file I/O
 
- 
+⸻
+
+Если хочешь — сделаю:
+
+✔ ASCII-карту игрового поля
+✔ отдельную красивую тёмную версию README
+✔ GitHub badges
+✔ скриншоты и пример игры
+
+Хочешь улучшенную premium-версию README?
