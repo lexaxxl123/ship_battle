@@ -131,7 +131,7 @@ def game():
 
         bot_turn(user_pole)
         if count_ships(user_pole) == 0:
-            print("Бот победил.")
+            print("Bot wins.")
             save_stats("bot", moves)
             break
 
